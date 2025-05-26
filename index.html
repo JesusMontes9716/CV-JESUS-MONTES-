@@ -2,112 +2,130 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=9.0">
-    <title>FELIPE DE JESUS MONTES GUZMAN - Currículum</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum - Felipe de Jesús Montes Guzmán</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #eef1f4;
+            margin: 0;
+            padding: 20px;
             display: flex;
-            flex-direction: column;
-            align-items: flex-start; /* Alinea todo al lado izquierdo */
             justify-content: center;
-            background-color: #f4f4f4; /* Color de fondo gris claro */
         }
-        header {
-            margin-bottom: 30px;
+
+        .cv-container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            max-width: 800px;
+            width: 100%;
         }
-        img {
-            max-width: 150px;
-            height: auto;
+
+        .header {
+            text-align: center;
+        }
+
+        .header img {
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
-        .header-content {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start; /* Alinea al lado izquierdo */
-            justify-content: center;
+
+        h1 {
+            margin-top: 15px;
+            font-size: 26px;
+            color: #333;
         }
+
+        .subtitle {
+            color: #555;
+            font-size: 16px;
+        }
+
         section {
-            margin-top: 20px;
-            text-align: left; /* Alinea el texto a la izquierda */
-            border-bottom: 2px dashed #555; /* Línea punteada */
-            padding-bottom: 30px; /* Espaciado en la parte inferior de la sección */
+            margin-top: 30px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
         }
-        section:last-child {
-            border-bottom: none; /* Elimina la línea punteada en la última sección */
+
+        h2 {
+            color: #1a73e8;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #444;
+            margin: 5px 0;
+        }
+
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <div class="header-content">
-            <img src="https://photos.fife.usercontent.google.com/pw/AP1GczPt9sdBGwZllGWS__MsxhuHkFNBX5mVmnZ2lMkjXacMAQ_srGPuWvXjDg=w625-h869-s-no-gm?authuser=0" alt="Tu Foto">
-            <h1>MONTES GUZMAN FELIPE DE JESÚS</h1>
-            <p>Tecnico Electromecanico</p>
-            <p>Ingeniería en Sistemas Computacionales</p>
+    <div class="cv-container">
+        <div class="header">
+            <img src="https://photos.fife.usercontent.google.com/pw/AP1GczPt9sdBGwZllGWS__MsxhuHkFNBX5mVmnZ2lMkjXacMAQ_srGPuWvXjDg=w625-h869-s-no-gm?authuser=0" alt="Foto de Felipe">
+            <h1>Felipe de Jesús Montes Guzmán</h1>
+            <p class="subtitle">Técnico Electromecánico | Estudiante de Ingeniería en Sistemas Computacionales</p>
         </div>
-    </header>
 
-    <section>
-        <h2>Información de Contacto</h2>
-        <p>Email: felipedejesus2016m@gmail.com</p>
-        <p>Teléfono: 3317649716</p>
-        <p>Dirección: Guadalajara, Jalisco</p>
-        <p>Codigo GITHUB: https://github.com/JesusMontes9716</p>
-    </section>
+        <section>
+            <h2>Información de Contacto</h2>
+            <p>Email: <a href="mailto:felipedejesus2016m@gmail.com">felipedejesus2016m@gmail.com</a></p>
+            <p>Teléfono: 3317649716</p>
+            <p>Dirección: Guadalajara, Jalisco</p>
+            <p>GitHub: <a href="https://github.com/JesusMontes9716" target="_blank">github.com/JesusMontes9716</a></p>
+        </section>
 
-    <section>
-        <h2>Educación</h2>
+        <section>
+            <h2>Educación</h2>
+            <h3>Técnico Electromecánico – Cecyte Jalisco No. 8</h3>
+            <p>Agosto 2018 – Junio 2021</p>
+            <p>Enfoque en programación de circuitos, torno y fresadora (manual y CNC), PLC, instalaciones eléctricas, soldadura de arco y acetileno.</p>
 
-        <h3>Tecnico Electromecanico - Cecyte Jalisco NO.8  </h3>
-        <p>Agosto 2018 - junio 2021</p>
-        <p>Enfoque en programación de circutos, manejo de torno y fresadora de grado manual y cnc, circuitos eléctricos y plc, soldadura de arco y acetileno, instalaciones electricas.</p>
+            <h3>Ingeniería en Sistemas Computacionales – Tecnológico Superior de Jalisco</h3>
+            <p>Agosto 2021 – Actualmente (Noveno semestre)</p>
+            <p>Enfoque en programación, algoritmos, bases de datos, redes, y proyectos de desarrollo web y hardware.</p>
+        </section>
 
-        <h3>Octavo Semestre en Ingeniería Sistemas Computacionales - Tecnológico Superior de Jalisco </h3>
-        <p>Agosto 2021 - Actualmente</p>
-        <p>Enfoque en programación, algoritmos, circuitos eléctricos. Realicé proyectos académicos.</p>
+        <section>
+            <h2>Perfil Profesional</h2>
+            <p>Técnico electromecánico con experiencia práctica en instalaciones eléctricas, uso de maquinaria, programación básica de PLC y microcontroladores. Manejo de software como Arduino, AutoCAD y simuladores eléctricos. En formación como ingeniero en sistemas con orientación en desarrollo de software y hardware.</p>
+        </section>
 
-    </section>
+        <section>
+            <h2>Experiencia Laboral</h2>
+            <h3>Ayudante de Electricista – Empresa SIE</h3>
+            <p>Agosto 2017 – Marzo 2018</p>
+            <p>Trabajo en campo en cuadrillas de instalación eléctrica. Participación en la creación de líneas eléctricas para fraccionamientos y atención a servicios generales eléctricos.</p>
+        </section>
 
+        <section>
+            <h2>Habilidades</h2>
+            <p><strong>Lenguajes:</strong> HTML, CSS, Python</p>
+            <p><strong>Bases de Datos:</strong> MySQL</p>
+            <p><strong>Electromecánica:</strong> Instalaciones eléctricas domesticas, manejo de maquinaria, programación de PLCs y PICs</p>
+            <p><strong>Software:</strong> Arduino, AutoCAD, simuladores eléctricos</p>
+        </section>
 
-
-    <section>
-    
-        <h2>Perfil: Técnico electromecánico  </h2>
-
-        <p>Realización de instalaciones eléctricas básicas, fabricación en tornos, uso de equipos de soldadura, uso de herramientas eléctricas y manuales, programación de sistemas como PLC y PIC'S a nivel básico, uso de programas de diseño y programación (Arduino, AutoCAD y otros simuladores).</p>
-    </section>
-
-    <section>
-        <h2>Experiencia Laboral</h2>
-    
-        <h3>Ayudante de Electricista - Empresa SIE </h3>
-        <p>Agosto 2017 - Marzo 2018</p>
-        <p>  En esta institución estuve en el área de cuadrillas o servicio al cliente.  
-            Mi labor, era salir con algunos de mis compañeros a realizar trabajos solicitados al negocio.
-            Uno de los proyectos en los que participe fue en la creación de una línea eléctrica para un fraccionamiento.  </p>
-    </section>
-
-   
-
-    <section>
-         <h2>Habilidades</h2>
-    
-        <p>HTML, CSS, Python</p>
-        <p>Base de Datos: MySQL</p>
-        <p>Instalaciones Eléctricas</p>
-        <p>Uso de maquinarias pequeñas</p>
-        <p>Programación de algunos sistemas como PLC y PIC'S</p>
-    </section>
-
-    <section>
-         <h2>Idiomas</h2>
-    
-        <p>Español (Nativo)</p>
-        <p>Inglés (Básico)</p>
-    </section>
+        <section>
+            <h2>Idiomas</h2>
+            <p>Español (Nativo)</p>
+            <p>Inglés (Básico)</p>
+        </section>
+    </div>
 
 </body>
 </html>
